@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34C5440B1B2D96FC1912E2B2 /* Pods_TakeHomeAssingment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F712DC6382385E364DB5B58 /* Pods_TakeHomeAssingment.framework */; };
+		650490FB25C4968D00BBD890 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650490FA25C4968D00BBD890 /* SpinnerView.swift */; };
+		6504910525C49A5B00BBD890 /* AlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504910425C49A5B00BBD890 /* AlbumsViewModel.swift */; };
+		6504910925C49BA800BBD890 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504910825C49BA800BBD890 /* AlbumTableViewCell.swift */; };
+		6504910C25C49C0700BBD890 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6504910B25C49C0700BBD890 /* AlbumTableViewCell.xib */; };
+		6504911125C49D0F00BBD890 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504911025C49D0F00BBD890 /* Album.swift */; };
+		6585830625C46BCF009696A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585830525C46BCF009696A9 /* AppDelegate.swift */; };
+		6585831025C46BCF009696A9 /* TakeHomeAssingment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6585830E25C46BCF009696A9 /* TakeHomeAssingment.xcdatamodeld */; };
+		6585831225C46BD0009696A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6585831125C46BD0009696A9 /* Assets.xcassets */; };
+		6585831525C46BD0009696A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6585831325C46BD0009696A9 /* LaunchScreen.storyboard */; };
+		6585832025C473AE009696A9 /* UIVIewController-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585831F25C473AE009696A9 /* UIVIewController-Ext.swift */; };
+		6585832425C473D4009696A9 /* EntryAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585832225C473D4009696A9 /* EntryAnimationViewController.swift */; };
+		6585832525C473D4009696A9 /* EntryAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6585832325C473D4009696A9 /* EntryAnimationViewController.xib */; };
+		6585832E25C47FF8009696A9 /* bandPlaying.json in Resources */ = {isa = PBXBuildFile; fileRef = 6585832D25C47FF8009696A9 /* bandPlaying.json */; };
+		6585833125C48450009696A9 /* bandPlaying.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6585833025C48450009696A9 /* bandPlaying.wav */; };
+		65E118B325C5B5F900DF2DBB /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E118B125C5B5F900DF2DBB /* AlbumsViewController.swift */; };
+		65E118B425C5B5F900DF2DBB /* AlbumsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E118B225C5B5F900DF2DBB /* AlbumsViewController.xib */; };
+		65E118BC25C5FBB700DF2DBB /* AlbumWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E118BB25C5FBB700DF2DBB /* AlbumWrapper.swift */; };
+		65E118C525C6118F00DF2DBB /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E118C325C6118F00DF2DBB /* AlbumViewController.swift */; };
+		65E118C625C6118F00DF2DBB /* AlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E118C425C6118F00DF2DBB /* AlbumViewController.xib */; };
+		65E118CA25C619C400DF2DBB /* UIColor-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E118C925C619C400DF2DBB /* UIColor-Ext.swift */; };
+		65FD77B725C484E6004B1B04 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FD77B625C484E6004B1B04 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25D48D2C6D836620DDF41DF5 /* Pods-TakeHomeAssingment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHomeAssingment.release.xcconfig"; path = "Target Support Files/Pods-TakeHomeAssingment/Pods-TakeHomeAssingment.release.xcconfig"; sourceTree = "<group>"; };
+		650490FA25C4968D00BBD890 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		6504910425C49A5B00BBD890 /* AlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewModel.swift; sourceTree = "<group>"; };
+		6504910825C49BA800BBD890 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		6504910B25C49C0700BBD890 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		6504911025C49D0F00BBD890 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		6585830225C46BCF009696A9 /* TakeHomeAssingment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomeAssingment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6585830525C46BCF009696A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6585830F25C46BCF009696A9 /* TakeHomeAssingment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakeHomeAssingment.xcdatamodel; sourceTree = "<group>"; };
+		6585831125C46BD0009696A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6585831425C46BD0009696A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6585831625C46BD0009696A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6585831F25C473AE009696A9 /* UIVIewController-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController-Ext.swift"; sourceTree = "<group>"; };
+		6585832225C473D4009696A9 /* EntryAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryAnimationViewController.swift; sourceTree = "<group>"; };
+		6585832325C473D4009696A9 /* EntryAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntryAnimationViewController.xib; sourceTree = "<group>"; };
+		6585832D25C47FF8009696A9 /* bandPlaying.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bandPlaying.json; sourceTree = "<group>"; };
+		6585833025C48450009696A9 /* bandPlaying.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bandPlaying.wav; sourceTree = "<group>"; };
+		65E118B125C5B5F900DF2DBB /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		65E118B225C5B5F900DF2DBB /* AlbumsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsViewController.xib; sourceTree = "<group>"; };
+		65E118BB25C5FBB700DF2DBB /* AlbumWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumWrapper.swift; sourceTree = "<group>"; };
+		65E118C325C6118F00DF2DBB /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		65E118C425C6118F00DF2DBB /* AlbumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumViewController.xib; sourceTree = "<group>"; };
+		65E118C925C619C400DF2DBB /* UIColor-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Ext.swift"; sourceTree = "<group>"; };
+		65FD77B625C484E6004B1B04 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		986C31ED69AAF1BD1AAEE5A8 /* Pods-TakeHomeAssingment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHomeAssingment.debug.xcconfig"; path = "Target Support Files/Pods-TakeHomeAssingment/Pods-TakeHomeAssingment.debug.xcconfig"; sourceTree = "<group>"; };
+		9F712DC6382385E364DB5B58 /* Pods_TakeHomeAssingment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeHomeAssingment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		658582FF25C46BCF009696A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C5440B1B2D96FC1912E2B2 /* Pods_TakeHomeAssingment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324CA94E2B5879C8DEFAB088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F712DC6382385E364DB5B58 /* Pods_TakeHomeAssingment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6502BE0025C624650097AA71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6585831F25C473AE009696A9 /* UIVIewController-Ext.swift */,
+				65E118C925C619C400DF2DBB /* UIColor-Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		650490F825C48D3100BBD890 /* AlbumsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				65E118C025C610CB00DF2DBB /* Model */,
+				65E118C125C610DD00DF2DBB /* View */,
+				65E118C225C6110000DF2DBB /* ViewModel */,
+			);
+			path = AlbumsScreen;
+			sourceTree = "<group>";
+		};
+		6504910F25C49CEB00BBD890 /* AlbumScreen */ = {
+			isa = PBXGroup;
+			children = (
+				65E118C325C6118F00DF2DBB /* AlbumViewController.swift */,
+				65E118C425C6118F00DF2DBB /* AlbumViewController.xib */,
+			);
+			path = AlbumScreen;
+			sourceTree = "<group>";
+		};
+		658582F925C46BCF009696A9 = {
+			isa = PBXGroup;
+			children = (
+				6585830425C46BCF009696A9 /* TakeHomeAssingment */,
+				6585830325C46BCF009696A9 /* Products */,
+				CF6D7563CA93959FDEA4924B /* Pods */,
+				324CA94E2B5879C8DEFAB088 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6585830325C46BCF009696A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6585830225C46BCF009696A9 /* TakeHomeAssingment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6585830425C46BCF009696A9 /* TakeHomeAssingment */ = {
+			isa = PBXGroup;
+			children = (
+				6585830525C46BCF009696A9 /* AppDelegate.swift */,
+				6585832725C47BDA009696A9 /* EntryAnimation */,
+				650490F825C48D3100BBD890 /* AlbumsScreen */,
+				6504910F25C49CEB00BBD890 /* AlbumScreen */,
+				6502BE0025C624650097AA71 /* Extensions */,
+				6585831125C46BD0009696A9 /* Assets.xcassets */,
+				6585831325C46BD0009696A9 /* LaunchScreen.storyboard */,
+				6585831625C46BD0009696A9 /* Info.plist */,
+				6585830E25C46BCF009696A9 /* TakeHomeAssingment.xcdatamodeld */,
+				6585832D25C47FF8009696A9 /* bandPlaying.json */,
+				6585833025C48450009696A9 /* bandPlaying.wav */,
+			);
+			path = TakeHomeAssingment;
+			sourceTree = "<group>";
+		};
+		6585832725C47BDA009696A9 /* EntryAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6585832225C473D4009696A9 /* EntryAnimationViewController.swift */,
+				6585832325C473D4009696A9 /* EntryAnimationViewController.xib */,
+				65FD77B625C484E6004B1B04 /* Player.swift */,
+			);
+			path = EntryAnimation;
+			sourceTree = "<group>";
+		};
+		65E118C025C610CB00DF2DBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6504911025C49D0F00BBD890 /* Album.swift */,
+				65E118BB25C5FBB700DF2DBB /* AlbumWrapper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65E118C125C610DD00DF2DBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65E118B125C5B5F900DF2DBB /* AlbumsViewController.swift */,
+				65E118B225C5B5F900DF2DBB /* AlbumsViewController.xib */,
+				6504910825C49BA800BBD890 /* AlbumTableViewCell.swift */,
+				6504910B25C49C0700BBD890 /* AlbumTableViewCell.xib */,
+				650490FA25C4968D00BBD890 /* SpinnerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65E118C225C6110000DF2DBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6504910425C49A5B00BBD890 /* AlbumsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF6D7563CA93959FDEA4924B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986C31ED69AAF1BD1AAEE5A8 /* Pods-TakeHomeAssingment.debug.xcconfig */,
+				25D48D2C6D836620DDF41DF5 /* Pods-TakeHomeAssingment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6585830125C46BCF009696A9 /* TakeHomeAssingment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6585831925C46BD0009696A9 /* Build configuration list for PBXNativeTarget "TakeHomeAssingment" */;
+			buildPhases = (
+				1E4EE4345EAC4CF20E69C757 /* [CP] Check Pods Manifest.lock */,
+				658582FE25C46BCF009696A9 /* Sources */,
+				658582FF25C46BCF009696A9 /* Frameworks */,
+				6585830025C46BCF009696A9 /* Resources */,
+				8F9F0FF3F989B0D2FD36E9A1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeHomeAssingment;
+			productName = TakeHomeAssingment;
+			productReference = 6585830225C46BCF009696A9 /* TakeHomeAssingment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		658582FA25C46BCF009696A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6585830125C46BCF009696A9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 658582FD25C46BCF009696A9 /* Build configuration list for PBXProject "TakeHomeAssingment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 658582F925C46BCF009696A9;
+			productRefGroup = 6585830325C46BCF009696A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6585830125C46BCF009696A9 /* TakeHomeAssingment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6585830025C46BCF009696A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E118C625C6118F00DF2DBB /* AlbumViewController.xib in Resources */,
+				6585831525C46BD0009696A9 /* LaunchScreen.storyboard in Resources */,
+				6585832E25C47FF8009696A9 /* bandPlaying.json in Resources */,
+				6585833125C48450009696A9 /* bandPlaying.wav in Resources */,
+				65E118B425C5B5F900DF2DBB /* AlbumsViewController.xib in Resources */,
+				6585832525C473D4009696A9 /* EntryAnimationViewController.xib in Resources */,
+				6504910C25C49C0700BBD890 /* AlbumTableViewCell.xib in Resources */,
+				6585831225C46BD0009696A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E4EE4345EAC4CF20E69C757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakeHomeAssingment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9F0FF3F989B0D2FD36E9A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakeHomeAssingment/Pods-TakeHomeAssingment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakeHomeAssingment/Pods-TakeHomeAssingment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeHomeAssingment/Pods-TakeHomeAssingment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		658582FE25C46BCF009696A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E118C525C6118F00DF2DBB /* AlbumViewController.swift in Sources */,
+				6585832025C473AE009696A9 /* UIVIewController-Ext.swift in Sources */,
+				6585832425C473D4009696A9 /* EntryAnimationViewController.swift in Sources */,
+				65E118BC25C5FBB700DF2DBB /* AlbumWrapper.swift in Sources */,
+				6585830625C46BCF009696A9 /* AppDelegate.swift in Sources */,
+				65FD77B725C484E6004B1B04 /* Player.swift in Sources */,
+				6504910925C49BA800BBD890 /* AlbumTableViewCell.swift in Sources */,
+				6504910525C49A5B00BBD890 /* AlbumsViewModel.swift in Sources */,
+				65E118CA25C619C400DF2DBB /* UIColor-Ext.swift in Sources */,
+				65E118B325C5B5F900DF2DBB /* AlbumsViewController.swift in Sources */,
+				6504911125C49D0F00BBD890 /* Album.swift in Sources */,
+				6585831025C46BCF009696A9 /* TakeHomeAssingment.xcdatamodeld in Sources */,
+				650490FB25C4968D00BBD890 /* SpinnerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6585831325C46BD0009696A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6585831425C46BD0009696A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6585831725C46BD0009696A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6585831825C46BD0009696A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6585831A25C46BD0009696A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986C31ED69AAF1BD1AAEE5A8 /* Pods-TakeHomeAssingment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9734TBY65C;
+				INFOPLIST_FILE = TakeHomeAssingment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksyTylkowski.TakeHomeAssingment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6585831B25C46BD0009696A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D48D2C6D836620DDF41DF5 /* Pods-TakeHomeAssingment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9734TBY65C;
+				INFOPLIST_FILE = TakeHomeAssingment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksyTylkowski.TakeHomeAssingment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		658582FD25C46BCF009696A9 /* Build configuration list for PBXProject "TakeHomeAssingment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6585831725C46BD0009696A9 /* Debug */,
+				6585831825C46BD0009696A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6585831925C46BD0009696A9 /* Build configuration list for PBXNativeTarget "TakeHomeAssingment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6585831A25C46BD0009696A9 /* Debug */,
+				6585831B25C46BD0009696A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6585830E25C46BCF009696A9 /* TakeHomeAssingment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6585830F25C46BCF009696A9 /* TakeHomeAssingment.xcdatamodel */,
+			);
+			currentVersion = 6585830F25C46BCF009696A9 /* TakeHomeAssingment.xcdatamodel */;
+			path = TakeHomeAssingment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 658582FA25C46BCF009696A9 /* Project object */;
+}
