@@ -9,6 +9,24 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>TakeHomeAssingmentUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6502BE0B25C62C0B0097AA71</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6585830125C46BCF009696A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

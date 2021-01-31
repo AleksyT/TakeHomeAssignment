@@ -14,7 +14,7 @@ class AlbumsViewModel {
     
     init() { }
     
-    func getAlbums(start:Int, completion: @escaping CompletionHandler) {
+    func getAlbums(start: Int, completion: @escaping CompletionHandler) {
         var urlComps = URLComponents(string: Self.url)
         let limitQueryItem = URLQueryItem(name: "_limit", value: "\(20)")
         let startQueryItem = URLQueryItem(name: "_start", value: "\(start)")

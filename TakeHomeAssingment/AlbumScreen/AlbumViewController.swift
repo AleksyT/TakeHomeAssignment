@@ -30,7 +30,7 @@ class AlbumViewController: UIViewController {
         albumCoverImageView.image = albumCoverImage
         albumCoverImageView.layer.borderWidth = 1
         albumCoverImageView.layer.borderColor = UIColor.Theme.foreground.cgColor
-        albumTitleLabel.text = albumTitle
+        albumTitleLabel.text = albumTitle.capitalized
     }
     
     override func viewWillAppear(_ animated: Bool) {

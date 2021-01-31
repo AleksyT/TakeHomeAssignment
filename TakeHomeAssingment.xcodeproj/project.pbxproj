@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34C5440B1B2D96FC1912E2B2 /* Pods_TakeHomeAssingment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F712DC6382385E364DB5B58 /* Pods_TakeHomeAssingment.framework */; };
+		6502BE0F25C62C0C0097AA71 /* TakeHomeAssingmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502BE0E25C62C0C0097AA71 /* TakeHomeAssingmentUITests.swift */; };
 		650490FB25C4968D00BBD890 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650490FA25C4968D00BBD890 /* SpinnerView.swift */; };
 		6504910525C49A5B00BBD890 /* AlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504910425C49A5B00BBD890 /* AlbumsViewModel.swift */; };
 		6504910925C49BA800BBD890 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504910825C49BA800BBD890 /* AlbumTableViewCell.swift */; };
@@ -31,8 +32,21 @@
 		65FD77B725C484E6004B1B04 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FD77B625C484E6004B1B04 /* Player.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6502BE1125C62C0C0097AA71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 658582FA25C46BCF009696A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6585830125C46BCF009696A9;
+			remoteInfo = TakeHomeAssingment;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		25D48D2C6D836620DDF41DF5 /* Pods-TakeHomeAssingment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHomeAssingment.release.xcconfig"; path = "Target Support Files/Pods-TakeHomeAssingment/Pods-TakeHomeAssingment.release.xcconfig"; sourceTree = "<group>"; };
+		6502BE0C25C62C0B0097AA71 /* TakeHomeAssingmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeHomeAssingmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6502BE0E25C62C0C0097AA71 /* TakeHomeAssingmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeAssingmentUITests.swift; sourceTree = "<group>"; };
+		6502BE1025C62C0C0097AA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		650490FA25C4968D00BBD890 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
 		6504910425C49A5B00BBD890 /* AlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewModel.swift; sourceTree = "<group>"; };
 		6504910825C49BA800BBD890 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
@@ -61,6 +75,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6502BE0925C62C0B0097AA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		658582FF25C46BCF009696A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,6 +110,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		6502BE0D25C62C0C0097AA71 /* TakeHomeAssingmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6502BE0E25C62C0C0097AA71 /* TakeHomeAssingmentUITests.swift */,
+				6502BE1025C62C0C0097AA71 /* Info.plist */,
+			);
+			path = TakeHomeAssingmentUITests;
+			sourceTree = "<group>";
+		};
 		650490F825C48D3100BBD890 /* AlbumsScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				6585830425C46BCF009696A9 /* TakeHomeAssingment */,
+				6502BE0D25C62C0C0097AA71 /* TakeHomeAssingmentUITests */,
 				6585830325C46BCF009696A9 /* Products */,
 				CF6D7563CA93959FDEA4924B /* Pods */,
 				324CA94E2B5879C8DEFAB088 /* Frameworks */,
@@ -122,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				6585830225C46BCF009696A9 /* TakeHomeAssingment.app */,
+				6502BE0C25C62C0B0097AA71 /* TakeHomeAssingmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +227,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6502BE0B25C62C0B0097AA71 /* TakeHomeAssingmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6502BE1525C62C0C0097AA71 /* Build configuration list for PBXNativeTarget "TakeHomeAssingmentUITests" */;
+			buildPhases = (
+				6502BE0825C62C0B0097AA71 /* Sources */,
+				6502BE0925C62C0B0097AA71 /* Frameworks */,
+				6502BE0A25C62C0B0097AA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6502BE1225C62C0C0097AA71 /* PBXTargetDependency */,
+			);
+			name = TakeHomeAssingmentUITests;
+			productName = TakeHomeAssingmentUITests;
+			productReference = 6502BE0C25C62C0B0097AA71 /* TakeHomeAssingmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		6585830125C46BCF009696A9 /* TakeHomeAssingment */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6585831925C46BD0009696A9 /* Build configuration list for PBXNativeTarget "TakeHomeAssingment" */;
@@ -223,6 +273,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					6502BE0B25C62C0B0097AA71 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6585830125C46BCF009696A9;
+					};
 					6585830125C46BCF009696A9 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -242,11 +296,19 @@
 			projectRoot = "";
 			targets = (
 				6585830125C46BCF009696A9 /* TakeHomeAssingment */,
+				6502BE0B25C62C0B0097AA71 /* TakeHomeAssingmentUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6502BE0A25C62C0B0097AA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6585830025C46BCF009696A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +369,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6502BE0825C62C0B0097AA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6502BE0F25C62C0C0097AA71 /* TakeHomeAssingmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		658582FE25C46BCF009696A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,6 +399,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6502BE1225C62C0C0097AA71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6585830125C46BCF009696A9 /* TakeHomeAssingment */;
+			targetProxy = 6502BE1125C62C0C0097AA71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		6585831325C46BD0009696A9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -341,6 +419,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6502BE1325C62C0C0097AA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9734TBY65C;
+				INFOPLIST_FILE = TakeHomeAssingmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksyTylkowski.TakeHomeAssingmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakeHomeAssingment;
+			};
+			name = Debug;
+		};
+		6502BE1425C62C0C0097AA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9734TBY65C;
+				INFOPLIST_FILE = TakeHomeAssingmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksyTylkowski.TakeHomeAssingmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakeHomeAssingment;
+			};
+			name = Release;
+		};
 		6585831725C46BD0009696A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -502,6 +618,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6502BE1525C62C0C0097AA71 /* Build configuration list for PBXNativeTarget "TakeHomeAssingmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6502BE1325C62C0C0097AA71 /* Debug */,
+				6502BE1425C62C0C0097AA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		658582FD25C46BCF009696A9 /* Build configuration list for PBXProject "TakeHomeAssingment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
